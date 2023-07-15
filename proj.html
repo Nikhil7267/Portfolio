@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+         * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+    }
+    nav ul li{
+        list-style: none;
+     margin: 23px;
+    }
+    nav ul li a{
+    text-decoration: none;
+    color: white;
+    }
+    nav ul li a:hover{
+ color: rgb(153, 153, 226);
+ font-size: 1.3rem;
+ transition: 0.5s;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    img{
+        width: 90%;
+        height: 320px;
+    }
+    .prj{
+        display: flex;
+       
+        flex-direction: column;
+       
+       align-items: center;
+        margin-top: 3em;
+        border: 0.1em solid white;
+        background-color: rgb(10, 10, 65);
+        
+     
+    }
+   .prj hr{
+      border: 0;
+      background-color: #9c97f1;
+      height: 1.2px;
+      margin: 16px 18px;
+    }
+    h1{
+        color: rgb(196, 166, 224);
+    }
+    @media (max-width:385px) {
+      nav{
+        flex-direction:column;
+      }
+      
+    }
+    </style>
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="left"> Nikhil's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="skills.html"> Skills</a></li>
+                <li><a href="proj.html"> Projects</a></li>
+               
+            </ul>
+        </div>
+      </nav>
+     </header>
+     <div class="prj">
+        <div><h1><u>PROJECT:</u></h1></div>
+
+        <div> <img src="project.png" alt=""></div>
+        <hr>
+        <div class="texr"> 
+            <p>I have created a web page using HTMl, CSS, JAVASCRIPT which 
+                is a clone of the home page of amazon.com  by taking a reference .</p>
+        </div>
+     </div>
+</body>
+</html>
